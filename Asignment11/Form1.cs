@@ -22,7 +22,7 @@ namespace Asignment11
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(textBox1.Text) && string.IsNullOrEmpty(textBox2.Text)==false)
+            if (string.IsNullOrEmpty(textBox1.Text)==false   && string.IsNullOrEmpty(textBox2.Text)==false)
             {
                 MSG(textBox1.Text.Trim(), textBox2.Text.Trim());
             }
